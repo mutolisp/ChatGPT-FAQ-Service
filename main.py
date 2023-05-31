@@ -54,7 +54,7 @@ def handle_message(event):
             
             {str(documents)[:TOKENS_LIMIT]}
             
-            如果答案不在以下文本中，請說“我不知道”。 
+            如果答案不在以下文本中，請說“目前我不清楚您問的問題。回答的範圍限定在我們的研究室資料庫內。” 
             
             Q: {query}
             A:
